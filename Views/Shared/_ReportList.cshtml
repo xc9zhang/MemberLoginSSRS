@@ -1,0 +1,47 @@
+﻿@using MemberLoginSSRS.Helpers
+@model MemberLoginSSRS.DTO.TEReportDto
+<div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
+    <div class="list-group panel">
+
+
+
+        @foreach (var item in ReportHelper.GetReportList(User.Identity.Name).OrderBy(p => p.CategoryID))
+        {
+
+
+
+            <a href="@("#menu"+item.CategoryID)" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#sidebar">@item.Name <i class="caret"></i></a>
+
+
+            <div class="@("collapse" + ((item.Name == "MIS" || item.CategoryID == ReportHelper.GetReportList(User.Identity.Name).OrderBy(p=>p.CategoryID).First().CategoryID) ? "in" : ""))" id="@("menu"+item.CategoryID)">
+
+
+                @*<div class="@("collapse " + ( (item.CategoryID == ReportHelper.GetReportList(User.Identity.Name).First().CategoryID) ? "in" : ""))" id="@("menu"+item.CategoryID)">*@
+
+                @*<div class="@("collapse " + ((item.Name == "MIS") ? "in" : ""))" id="@("menu"+item.CategoryID)">*@
+
+                @*<div class="@("collapse " + ( (p => p.Name == "Admin"ReportHelper.GetReportList(User.Identity.Name).First().CategoryID) ? "in" : ""))" id="@("menu"+item.CategoryID)">*@
+
+                @*<div class="@("" + ((Model != null && Model.SelectedCategoryId == item.CategoryID)?"in":""))" id="@("menu"+item.CategoryID)">*@
+
+                @foreach (var report in item.TEReports)
+                {
+
+
+
+                    if (Model != null && Model.ID == report.ID && Model.SelectedCategoryId == item.CategoryID)
+                    {
+                        @Html.ActionLink(report.Name, "View", new { id = report.ID, categoryId = item.CategoryID }, new { @class = "list-group-item", style = "height: 30px; padding: 7px 35px;" })
+                    }
+                    else
+                    {
+                        @Html.ActionLink(report.Name, "View", new { id = report.ID, categoryId = item.CategoryID }, new { @class = "list-group-item", style = "height: 30px; padding: 7px 35px;" })
+                    }
+                }
+            </div>
+
+        }
+
+    </div>
+</div>
+<!--/.sidebar-offcanvas-->

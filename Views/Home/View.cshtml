@@ -1,0 +1,40 @@
+﻿@using ReportViewerForMvc;
+@model MemberLoginSSRS.DTO.TEReportDto
+@{
+    ViewBag.Title = "TEReport";
+}
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
+<script type="text/javascript">
+    $(window).load(function () {
+        $("#pageloaddiv").fadeOut(1000);
+    });
+</script>
+
+<style type="text/css">
+    #pageloaddiv {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 1000;
+     
+        background: url('../../Content/img/loading-gif-animation.gif') no-repeat center center;
+    }
+</style>
+
+
+<div class="row row-offcanvas row-offcanvas-right">
+    @Html.Partial("_ReportList", Model)
+
+    <div class="col-xs-12 col-sm-9">
+        <div id="pageloaddiv">Loading....</div>
+        <div class="row" >
+            @Html.ReportViewer(
+    ViewBag.ReportViewer as Microsoft.Reporting.WebForms.ReportViewer,
+                      new { scrolling = "no", style = "border: none" })
+        </div>
+
+    </div><!--/.col-xs-12.col-sm-9-->
+</div><!--/row-->

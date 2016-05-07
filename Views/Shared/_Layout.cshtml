@@ -1,0 +1,83 @@
+﻿@using MemberLoginSSRS.Helpers
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - SSRS Login</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body ng-app="angularServiceDashboard">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("SSRS Login", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    @{
+                        if (User.Identity.IsAuthenticated)
+                        {
+                            var userRoles = UserHelper.GetRoles(User.Identity.Name);
+                            if (userRoles.Any(p => p.Name == "Admin"))
+                            {
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Settings<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li>@Html.ActionLink("User", "Index", "User")</li>
+                                        <li>@Html.ActionLink("Report", "Index", "Report")</li>
+                                    </ul>
+                                </li>
+                            }
+                        }
+                    }
+
+
+                    @{
+                        if (User.Identity.IsAuthenticated)
+                        {
+                            <li>@Html.ActionLink("Log Out", "LogOff", "Account")</li>
+                        }
+
+                        else
+                        {
+                            <li>@Html.ActionLink("Login", "Login", "Account")</li>
+                        }
+                    }
+                    @*<li>@Html.ActionLink("Log Out", "LogOff", "Account")</li>*@
+
+                    @*<li>@Html.ActionLink("Login", "Login", "Account")</li>*@
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - SSRS Login</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/chosen")
+    @Scripts.Render("~/bundles/chartjs")
+    @*@Scripts.Render("~/bundles/appjs")*@
+    <script src="~/app/app.js"></script>
+    <script src="~/app/services.js"></script>
+    <script src="~/app/directives.js"></script>
+    <script src="~/app/controllers.js"></script>
+
+    @RenderSection("scripts", required: false)
+</body>
+
+</html>

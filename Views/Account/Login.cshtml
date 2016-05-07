@@ -1,0 +1,67 @@
+﻿@model MemberLoginSSRS.Models.LoginModel
+<div id="header">
+    <div id="box">
+
+        <div id="text">
+            <div class="aspNetHidden">
+                <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTg0NDM1NTk0MWRkkW8FLCL+1gGjKMf+hqRaK22peZw=" />
+            </div>
+
+            <div class="aspNetHidden">
+
+                <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBALtqd3jBgKDltnTBgK7zcDKDAKrt7fQCiw0LgPga5j9RBFPu5Fxj9bixyFY" />
+            </div>
+            <table>
+                @using (Html.BeginForm(new { ReturnUrl = ViewBag.ReturnUrl }))
+                {
+                    @Html.AntiForgeryToken()
+
+                    //Presents stored errors and clears the list afterwards.
+                    @Html.ValidationSummary(true)
+                    <tr>
+                        <td class="no-Border">
+                            Login ID
+                        </td>
+                        <td class="no-Border">
+                            Password&nbsp;&nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="no-Border">
+                            @Html.TextBoxFor(m => m.UserName)
+                            @Html.ValidationMessageFor(m => m.UserName)
+                        </td>
+                        <td class="no-Border">
+                            @Html.PasswordFor(m => m.Password)
+                            @Html.ValidationMessageFor(m => m.Password)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="no-Border">
+                            <input type="submit" value="Log In" />
+                        </td>
+                        <td class="no-Border">
+                            <a href="http://edocs.traveltech.ca/RetrievePass.aspx">Forgot Password</a>
+                            <br />
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+        <div class="select">
+            This web site is for Tour East Agents only.
+            <br />
+            For inquiries, please contact 1-866-501-9444
+            <br />
+            <span></span>
+        </div>
+        <div class="clr">
+            <div class="footer">
+                <div align="center">
+                    <br />
+                    The information contained in this website is confidential and may be legally privileged.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,120 @@
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\ReportViewerWebForm.aspx
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\ReportViewerWebForm.aspx.cs
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\ReportViewerWebForm.aspx.designer.cs
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\MemberLoginSSRS.dll.config
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\MemberLoginSSRS.dll
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\MemberLoginSSRS.pdb
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Antlr3.Runtime.dll
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\EntityFramework.dll
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\EntityFramework.SqlServer.dll
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Microsoft.Owin.Cors.dll
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Microsoft.Owin.dll
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Microsoft.Owin.Security.dll
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Newtonsoft.Json.dll
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Owin.dll
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\ReportViewerForMvc.dll
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Net.Http.Formatting.dll
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.Cors.dll
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.Helpers.dll
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.Http.dll
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.Http.WebHost.dll
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.Mvc.dll
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.Optimization.dll
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.Razor.dll
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.WebPages.dll
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.WebPages.Razor.dll
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\WebGrease.dll
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\ReportViewerForMvc.pdb
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Antlr3.Runtime.pdb
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\EntityFramework.xml
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\EntityFramework.SqlServer.xml
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Microsoft.Owin.xml
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Microsoft.Owin.Cors.xml
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Microsoft.Owin.Security.xml
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Newtonsoft.Json.xml
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Net.Http.Formatting.xml
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.Helpers.xml
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.Http.xml
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.Http.WebHost.xml
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.Mvc.xml
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.Razor.xml
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.WebPages.xml
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.WebPages.Razor.xml
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.Optimization.xml
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\obj\Debug\MemberLoginSSRS.csprojResolveAssemblyReference.cache
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\obj\Debug\MemberLoginSSRS.Migrations.InitialCreate.resources
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\obj\Debug\MemberLoginSSRS.Migrations.Category.resources
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\obj\Debug\MemberLoginSSRS.Migrations.User.resources
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\obj\Debug\MemberLoginSSRS.csproj.GenerateResource.Cache
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\obj\Debug\MemberLoginSSRS.dll
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\obj\Debug\MemberLoginSSRS.pdb
+C:\Users\Mike-Mac\Documents\sjf\this is test\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\obj\Debug\MemberLoginSSRS.Migrations.layout.resources
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\ReportViewerWebForm.aspx
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\ReportViewerWebForm.aspx.cs
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\ReportViewerWebForm.aspx.designer.cs
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\MemberLoginSSRS.dll.config
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\MemberLoginSSRS.dll
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\MemberLoginSSRS.pdb
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Antlr3.Runtime.dll
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\EntityFramework.dll
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\EntityFramework.SqlServer.dll
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Microsoft.Owin.Cors.dll
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Microsoft.Owin.dll
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Microsoft.Owin.Security.dll
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Microsoft.Web.Infrastructure.dll
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Newtonsoft.Json.dll
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Owin.dll
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\ReportViewerForMvc.dll
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Net.Http.Formatting.dll
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.Cors.dll
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.Helpers.dll
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.Http.dll
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.Http.WebHost.dll
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.Mvc.dll
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.Optimization.dll
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.Razor.dll
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.WebPages.Deployment.dll
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.WebPages.dll
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.WebPages.Razor.dll
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\WebGrease.dll
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\ReportViewerForMvc.pdb
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Antlr3.Runtime.pdb
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\EntityFramework.xml
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\EntityFramework.SqlServer.xml
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Microsoft.Owin.xml
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Microsoft.Owin.Cors.xml
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Microsoft.Owin.Security.xml
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\Newtonsoft.Json.xml
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Net.Http.Formatting.xml
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.Helpers.xml
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.Http.xml
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.Http.WebHost.xml
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.Mvc.xml
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.Razor.xml
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.WebPages.xml
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.WebPages.Deployment.xml
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.WebPages.Razor.xml
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\bin\System.Web.Optimization.xml
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\obj\Debug\MemberLoginSSRS.csprojResolveAssemblyReference.cache
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\obj\Debug\MemberLoginSSRS.Migrations.InitialCreate.resources
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\obj\Debug\MemberLoginSSRS.Migrations.Category.resources
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\obj\Debug\MemberLoginSSRS.Migrations.User.resources
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\obj\Debug\MemberLoginSSRS.Migrations.layout.resources
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\obj\Debug\MemberLoginSSRS.csproj.GenerateResource.Cache
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\obj\Debug\MemberLoginSSRS.dll
+C:\code\DragDrop\ContosoUniversity\MemberLoginSSRS\MemberLoginSSRS\obj\Debug\MemberLoginSSRS.pdb

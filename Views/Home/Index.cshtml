@@ -1,0 +1,162 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<style type="text/css">
+   .fontsize {
+     font-size:12px;
+    }
+</style>
+
+<script type="text/ng-template" id="list.html">
+    <ul dnd-list="list">
+        <li ng-repeat="item in list"
+            dnd-draggable="item"
+            dnd-effect-allowed="move"
+            dnd-moved="list.splice($index, 1)"
+            dnd-selected="models.selected = item"
+            ng-class="{selected: models.selected === item}"
+            ng-include="item.type + '.html'">
+        </li>
+    </ul>
+</script>
+
+<!-- This template is responsible for rendering a container element. It uses
+     the above list template to render each container column -->
+<script type="text/ng-template" id="container.html">
+    <div class="container-element box box-blue">
+        <h3>Container {{item.id}}</h3>
+        <div class="column" ng-repeat="list in item.columns" ng-include="'list.html'"></div>
+        <div class="clearfix"></div>
+    </div>
+</script>
+
+<!-- Template for a normal list item -->
+<script type="text/ng-template" id="hbar.html">
+    <div class="container-element box box-blue">
+        <h3>{{item.name}}</h3>
+        <div class="chart-container">
+            <nvd3 options="$parent.hbarchartoptions" data="$parent.totaldata"></nvd3>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</script>
+<script type="text/ng-template" id="TEB2Bvbar.html">
+    <div class="container-element box box-blue">
+        <h3>{{item.name}}</h3>
+        <div class="chart-container">
+            <canvas id="bar" class="chart chart-bar" chart-data="$parent.TEB2BData"
+                    chart-labels="$parent.TEB2BLabels" chart-series="$parent.TEB2BSeries"
+                    chart-options="$parent.ChartOptions"></canvas>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</script>
+<script type="text/ng-template" id="TE2Uvbar.html">
+    <div class="container-element box box-blue">
+        <h3>{{item.name}}</h3>
+        <div class="chart-container">
+            <canvas id="bar" class="chart chart-bar" chart-data="$parent.TE2UData"
+                    chart-labels="$parent.TE2ULabels" chart-series="$parent.TE2USeries"
+                    chart-options="$parent.ChartOptions"></canvas>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</script>
+<script type="text/ng-template" id="CTRIPvbar.html">
+    <div class="container-element box box-blue">
+        <h3>{{item.name}}</h3>
+        <div class="chart-container">
+            <canvas id="bar" class="chart chart-bar" chart-data="$parent.CTRIPData"
+                    chart-labels="$parent.CTRIPLabels" chart-series="$parent.CTRIPSeries"
+                    chart-options="$parent.ChartOptions"></canvas>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</script>
+<script type="text/ng-template" id="HOPPERvbar.html">
+    <div class="container-element box box-blue">
+        <h3>{{item.name}}</h3>
+        <div class="chart-container">
+            <canvas id="bar" class="chart chart-bar" chart-data="$parent.HOPPERData"
+                    chart-labels="$parent.HOPPERLabels" chart-series="$parent.HOPPERSeries"
+                    chart-options="$parent.ChartOptions"></canvas>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</script>
+<script type="text/ng-template" id="pie.html">
+    <div class="container-element box box-blue">
+        <h3>{{item.name}}</h3>
+        <div class="chart-container">
+            <nvd3 options="$parent.pieoptions" data="$parent.piedata"></nvd3>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</script>
+
+<div class="nestedDemo row row-offcanvas row-offcanvas-right" ng-controller="BookingController">
+    <!-- Main area with dropzones and source code -->
+    <div class="col-md-10">
+        <div class="row" style="padding-left:17px">
+            <p class="input-group col-sm-10">
+                <input type="text" class="form-control" uib-datepicker-popup="fullDate" ng-model="currentdate" is-open="popup.opened"
+                       datepicker-options="dateOptions" ng-required="true" close-text="Close" placeholder="Select Date"
+                       ng-change="onchange(currentdate)" />
+                <span class="input-group-btn">
+                    <button type="button" class="btn btn-default" ng-click="open()"><i class="glyphicon glyphicon-calendar"></i></button>
+                    <button type="button" class="btn btn-default" ng-click="isdesignmode=!isdesignmode"><i class="glyphicon glyphicon-cog"></i></button>
+                    <button type="button" class="btn btn-default" ng-click="save_layout()" ng-if="isdesignmode"><i class="glyphicon glyphicon-ok"></i></button>
+                    <button type="button" class="btn btn-default" ng-click="load_layout()" ng-if="isdesignmode"><i class="glyphicon glyphicon-remove"></i></button>
+                </span>
+            </p>
+        </div>
+        <div class="row">
+            <div ng-repeat="(zone, list) in models.dropzones" class="col-md-6">
+                <div class="dropzone box box-yellow">
+                    <!-- The dropzone also uses the list template -->
+                    <h3>Dropzone {{zone}}</h3>
+                    <div ng-include="'list.html'"></div>
+                </div>
+            </div>
+        </div>
+
+        <div view-source="nested"></div>
+
+        <h2>Generated Model</h2>
+        <pre>{{modelAsJson}}</pre>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="col-md-2" ng-if="isdesignmode">
+        <div class="trashcan toolbox box box-grey box-padding">
+            <h3>New Elements</h3>
+            <ul>
+                <!-- The toolbox only allows to copy objects, not move it. After a new
+                    element was created, dnd-copied is invoked and we generate the next id -->
+                <li ng-repeat="item in models.templates"
+                    dnd-draggable="item"
+                    dnd-effect-allowed="copy"
+                    dnd-copied="item.id = item.id + 1">
+                    <img ng-src="{{item.img}}"/>
+                </li>
+            </ul>
+        </div>
+
+        <div ng-if="models.selected" class="box box-grey box-padding">
+            <h3>Selected</h3>
+            <strong>Type: </strong> {{models.selected.type}}<br>
+            <input type="text" ng-model="models.selected.id" class="form-control" style="margin-top: 5px" />
+        </div>
+
+        <div class="trashcan box box-grey box-padding">
+            <!-- If you use [] as referenced list, the dropped elements will be lost -->
+            <h3>Trashcan</h3>
+            <ul dnd-list="[]">
+                <li><img src="/Content/img/trashcan.jpg"></li>
+            </ul>
+        </div>
+
+    </div>
+
+</div>
